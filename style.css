@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#titulo {
+  flex-direction: column;
+  line-height: 10px;
+}
+li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 22px;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: hsl(265, 88%, 58%);
+  transition: 0.3s all;
+}
+#curiosidades-personagem {
+  border: 2px solid hsl(265, 88%, 58%);
+  padding: 10px;
+  border-radius: 18px;
+}
+#curiosidades-personagem:hover {
+  background-color: hsl(265, 88%, 58%);
+  color: white;
+}
+h1 {
+  font-weight: 200;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+h2 {
+  font-size: 56px;
+  line-height: 10px;
+  font-family: poppinsmedium;
+}
+span {
+  color: hsl(265, 88%, 58%);
+}
+p {
+  font-size: 22px;
+  line-height: 30px;
+  max-width: 500px;
+}
+.img-poster-pantera-negra {
+  border-radius: 6%;
+  width: 385px;
+  font-family: poppinslight;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+.conteudo-2 {
+  margin-top: 200px;
+}
+.titulo-conteudo-2 {
+  font-size: 38px;
+  text-align: center;
+  line-height: 10px;
+  margin-top: 180px;
+  font-family: poppinsmedium;
+}
+.lista-curiosidades {
+  text-align: center;
+  font-size: 15px;
+}
+.rodape {
+  border-top: 0.4px solid whitesmoke;
+  margin-bottom: 48px;
+  margin-top: 150px;
+}
+.img-logo-footer {
+  width: 200px;
+  margin-top: 10px;
+  padding-inline: 500px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+form [type="submit"] {
+  height: 50px;
+  width: 50%;
+  background-color: hsl(265, 88%, 58%);
+  color: white;
+  font-weight: bold;
+}
+form [type="submit"]:hover {
+  cursor: pointer;
+}
+input {
+  margin-top: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
+.lista-curiosidades {
+  color: white;
+}
+.poster-pantera-negra {
+  margin-top: 100px;
+}
+.conteudo-principal {
+  border-top: 0.4px solid whitesmoke;
+  margin-bottom: 48px;
+  margin-top: 10px;
+}
+.aside-conteudo {
+  margin-top: 100px;
+}
